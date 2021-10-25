@@ -11,3 +11,32 @@
 
 
 /* ******DEBUG****** */
+
+
+.debug header .container-fluid {
+    height: 100px;
+    background-color: blue;
+}
+
+.debug #jumbotron .container-fluid,
+.debug section .container-fluid {
+    height: 200px;
+    background-color: green;
+}
+
+.debug .container {
+    height: 200px;
+    max-height: 100%;
+    background-color: royalblue;
+    border: 1px solid black;
+}
+
+.debug #top_foot .container-fluid {
+    height: 200px;
+    background-color: grey;
+}
+
+.debug #bottom_foot .container-fluid {
+    height: 100px;
+    background-color: darkgrey;
+}
