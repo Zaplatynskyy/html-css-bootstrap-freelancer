@@ -12,31 +12,114 @@
 
 /* ******DEBUG****** */
 
+.debug .container {
+    height: 200px;
+    max-height: 100%;
+    background-color: yellow;
+    border: 1px solid black;
+}
 
+/* debug sezione header */
 .debug header .container-fluid {
     height: 100px;
     background-color: blue;
 }
 
+.debug header .col {
+    height: 100px;
+    max-height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    border: 1px solid black;
+}
+
+/* debug sezione jumbotron */
+
+.debug #jumbotron .col-12 {
+    height: 50px;
+    max-height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    border: 1px solid black;
+}
+
+/* debug sezione main */
 .debug #jumbotron .container-fluid,
 .debug section .container-fluid {
     height: 200px;
     background-color: green;
 }
 
-.debug .container {
-    height: 200px;
-    max-height: 100%;
-    background-color: royalblue;
+.debug #portfolio .row > div {
+    height: 25px;
+    background-color: rgba(0, 0, 0, 0.5);
     border: 1px solid black;
 }
 
+.debug #portfolio .row > .grid_debug {
+    height: 150px;
+}
+
+.debug #about .row > div {
+    height: 40px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border: 1px solid black;
+}
+
+.debug #about .row > .grid_debug {
+    height: 80px;
+}
+
+.debug #contact_me .row > div {
+    height: 50px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border: 1px solid black;
+}
+
+.debug #contact_me .row > .grid_debug {
+    height: 100px;
+}
+
+
+
+/* debug sezione footer */
 .debug #top_foot .container-fluid {
     height: 200px;
     background-color: grey;
 }
 
+.debug #top_foot .col-12 {
+    height: 60px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border: 1px solid black;
+}
+
 .debug #bottom_foot .container-fluid {
     height: 100px;
     background-color: darkgrey;
+}
+
+.debug #bottom_foot .col {
+    height: 100px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border: 1px solid black;
+}
+
+/* debug media query*/
+@media screen and (min-width: 576px) {
+    .debug #portfolio .grid_debug .col-sm-6 {
+        height: 50px;
+    }
+
+    .debug #about .grid_debug .col-sm-6 {
+        height: 80px;
+    }
+
+    .debug #top_foot .col-sm-4 {
+        height: 200px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .debug #portfolio .grid_debug .col-md-4 {
+        height: 75px;
+    }
 }
