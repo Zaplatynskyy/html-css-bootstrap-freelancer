@@ -59,6 +59,27 @@ main section img {
 #about {
     background-color: #1abc9c;
 }
+
+section#contact_me label {
+    display: block;
+}
+
+.b_input {
+    border: none;
+    border-bottom: 1px solid #cccccc;
+}
+
+.btn_green {
+    color: white;
+    background-color: #1abc9c;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 15px;
+}
+
+.btn_green:hover {
+    opacity: 0.8;
+}
 /* ******FOOTER****** */
 
 
