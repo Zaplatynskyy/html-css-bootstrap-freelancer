@@ -1,13 +1,37 @@
 /* ******COMMONS****** */
 
-img {
-    width: 200px;
+.star_white::before, .star_white::after {
+    content: " ";
+    width: 14%;
+    height: 6px;
+    border-top: 2px solid white;
+    display: inline-block;
 }
 
+.star_black::before, .star_black::after {
+    content: " ";
+    width: 14%;
+    height: 6px;
+    border-top: 2px solid black;
+    display: inline-block;
+}
+
+.btn_white {
+    color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+    background-color: transparent;
+    padding: 5px 15px;
+}
+
+.btn_white:hover {
+    color: black;
+    border: 1px solid black;
+    background-color: #1abc9c;
+}
 /* ******HEADER****** */
 
 header {
-    height: 80px;
     background-color: #2c3e50;
 }
 
@@ -17,14 +41,16 @@ header {
     background-color: #1abc9c;
 }
 
-.star::before, .star::after {
-    content: " ";
-    width: 14%;
-    height: 6px;
-    border-top: 2px solid white;
-    display: inline-block;
+#jumbotron img {
+    width: 250px;
 }
+
 /* ******MAIN****** */
+
+main section img {
+    width: 100%;
+    border-radius: 15px;
+}
 
 #about {
     background-color: #1abc9c;
