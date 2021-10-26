@@ -2,13 +2,38 @@
 
 /* ******HEADER****** */
 
+header {
+    height: 80px;
+    background-color: #2c3e50;
+}
+
+/* ******JUMBOTRON****** */
+
+#jumbotron {
+    background-color: #1abc9c;
+}
 /* ******MAIN****** */
 
+#about {
+    background-color: #1abc9c;
+}
 /* ******FOOTER****** */
 
+
+#footer_top {
+    background-color: #3a546d;
+}
+
+#footer_bottom {
+    background-color: #2c3e50;
+}
 /* ******MEDIA QUERY****** */
 
 
 
 /* ******DEBUG****** */
 
+.debug .box {
+    height: 100px;
+    background-color: blue;
+}
